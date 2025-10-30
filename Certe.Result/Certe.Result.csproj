@@ -15,8 +15,10 @@
 	<Description>A clean and extensible Result pattern implementation with strong typing and domain-friendly structures.</Description>
 	<PackageTags>Result;Functional;ErrorHandling;CleanArchitecture;CSharp;.NET</PackageTags>
 	<RepositoryType>git</RepositoryType>
+	<PackageProjectUrl>https://github.com/JoseSebastianGarcia/Certe.Result</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/JoseSebastianGarcia/Certe.Result</RepositoryUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-	
+	  
   </PropertyGroup>
 
 </Project>
