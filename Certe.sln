@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certe.Result.UnitTest", "Ce
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dist", "dist", "{921C1E4C-1B67-43BF-A4C2-3655A61F62C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certe.Result.AspNetCore", "Certe.Result.AspNetCore\Certe.Result.AspNetCore.csproj", "{C698F035-E2CD-49A8-AA42-457635CC0060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{435FECB9-6694-4921-9815-061C002DD24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{435FECB9-6694-4921-9815-061C002DD24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{435FECB9-6694-4921-9815-061C002DD24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C698F035-E2CD-49A8-AA42-457635CC0060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C698F035-E2CD-49A8-AA42-457635CC0060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C698F035-E2CD-49A8-AA42-457635CC0060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C698F035-E2CD-49A8-AA42-457635CC0060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{2D21E269-2B39-489C-BC71-F85E2B9CB818} = {53FFFCE8-C75C-4B0A-BBB1-FB1183ACDB44}
 		{435FECB9-6694-4921-9815-061C002DD24A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{921C1E4C-1B67-43BF-A4C2-3655A61F62C6} = {D84F99A1-3CBA-47F9-9F56-B7CABBE6A591}
+		{C698F035-E2CD-49A8-AA42-457635CC0060} = {FC7E7906-9572-4036-8BF2-3C2ABAE502CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96C3E9C7-E2F9-43D2-BD92-D7152046683E}

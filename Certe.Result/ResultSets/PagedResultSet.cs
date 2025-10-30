@@ -4,11 +4,11 @@ namespace Certe.Result.ResultSets;
 
 public class PagedResultSet<T> : IResultSet
 {
-	public IEnumerable<T> Items { get; set; }
-	public int PageNumber { get; set; }
-	public int PageSize { get; set; }
-	public int TotalRecords { get; set; }
-	public int TotalPages { get; set; }
+	public IEnumerable<T> Items { get; init; }
+	public int PageNumber { get; init; }
+	public int PageSize { get; init; }
+	public int TotalRecords { get; init; }
+	public int TotalPages { get; init; }
 
 	private PagedResultSet(IEnumerable<T> items, int pageNumber, int pageSize, int totalRecords)
 	{

@@ -42,7 +42,7 @@ successGroup.MapGet("/query-paged", (int pageSize, int pageNumber) => {
 var errorGroup = app.MapGroup("/error-response").WithTags("error-response");
 errorGroup.MapGet("/command", () => Result.Failure([Errors.InternalServerError("An unexpected error")]));
 errorGroup.MapGet("/query-simple", () => Result<SimpleResultSet<int>>.Failure([Errors.InternalServerError("An unexpected error")]));
-errorGroup.MapGet("/query-paged", () => Result<PagedResultSet<string>>.Failure([Error.Throw("Custom.Error", "A custom error")]));
+errorGroup.MapGet("/query-paged", () => Result<PagedResultSet<string>>.Failure([Error.Create("Custom.Error", "A custom error")]));
 
 
 app.Run();

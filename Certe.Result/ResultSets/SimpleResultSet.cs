@@ -4,7 +4,7 @@ namespace Certe.Result.ResultSets;
 
 public class SimpleResultSet<T> : IResultSet
 {
-	public T Value { get; set; }
+	public T Value { get; init; }
 	private SimpleResultSet(T value) 
 		=> Value = value;
 	

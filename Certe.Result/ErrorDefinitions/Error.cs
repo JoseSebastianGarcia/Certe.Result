@@ -2,6 +2,6 @@
 
 public record Error(string Code, string Message, string? Detail = null) 
 {
-	public static Error Throw(string code, string message, string? detail = null)
+	public static Error Create(string code, string message, string? detail = null)
 		=> new Error(code, message, detail);
 }

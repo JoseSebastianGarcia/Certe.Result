@@ -5,11 +5,11 @@ namespace Certe.Result.ResultImplementations;
 
 public class Result : IResult
 {
-	public bool IsSuccess { get; set; }
+	public bool IsSuccess { get; init; }
 
 	public bool IsError => !IsSuccess;
 
-	public List<Error>? ErrorList { get; set; }
+	public List<Error>? ErrorList { get; init; }
 
 	private Result(bool isSuccess, List<Error>? errorList)
 	{

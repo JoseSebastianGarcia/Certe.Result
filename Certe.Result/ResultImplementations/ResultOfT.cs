@@ -6,10 +6,10 @@ namespace Certe.Result.ResultImplementations;
 public class Result<T> : IResult<T> 
 	where T : IResultSet
 {
-	public bool IsSuccess { get; set; }
+	public bool IsSuccess { get; init; }
 	public bool IsError => !IsSuccess;
-	public List<Error>? ErrorList { get; set; }
-	public T? Data { get; set; }
+	public List<Error>? ErrorList { get; init; }
+	public T? Data { get; init; }
 
 	private Result(bool isSuccess, List<Error>? errorList, T? data)
 	{

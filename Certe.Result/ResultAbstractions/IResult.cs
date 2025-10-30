@@ -4,7 +4,7 @@ namespace Certe.Result.ResultAbstractions;
 
 public interface IResult
 {
-	bool IsSuccess { get; set; }
+	bool IsSuccess { get; init; }
 	bool IsError { get; }
-	List<Error>? ErrorList { get; set; }
+	List<Error>? ErrorList { get; init; }
 }

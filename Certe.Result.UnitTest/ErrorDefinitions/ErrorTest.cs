@@ -16,7 +16,7 @@ public class ErrorTest
 	[Fact]
 	public void CustomError_MustBe_Valid()
 	{
-		Error error = Error.Throw("Custom.Error","A message","A detail 123");
+		Error error = Error.Create("Custom.Error","A message","A detail 123");
 		error.Code.Should().Be("Custom.Error");
 		error.Message.Should().Be("A message");
 		error.Detail.Should().Be("A detail 123");
