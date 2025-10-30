@@ -18,7 +18,16 @@
 	<PackageProjectUrl>https://github.com/JoseSebastianGarcia/Certe.Result</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/JoseSebastianGarcia/Certe.Result</RepositoryUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<AssemblyName>Certe.Result</AssemblyName>
+	<RootNamespace>Certe.Result</RootNamespace>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
 	  
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
