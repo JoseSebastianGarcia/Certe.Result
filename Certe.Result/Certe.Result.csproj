@@ -12,6 +12,11 @@
     <Company>jsgarcia</Company>
     <Product>Certe.Result</Product>
     <Title>Certe.Result</Title>
+	<Description>A clean and extensible Result pattern implementation with strong typing and domain-friendly structures.</Description>
+	<PackageTags>Result;Functional;ErrorHandling;CleanArchitecture;CSharp;.NET</PackageTags>
+	<RepositoryType>git</RepositoryType>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	
   </PropertyGroup>
 
 </Project>
