@@ -20,4 +20,6 @@ Su enfoque permite expresar resultados de dominio, errores y datos complejos (co
 ## 📦 Instalación
 
 bash
+```bash
 dotnet add package Certe.Result
+```
